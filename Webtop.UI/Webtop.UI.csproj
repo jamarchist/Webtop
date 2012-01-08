@@ -51,18 +51,18 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WebKitBrowser">
-      <HintPath>..\packages\WebKit.NET-0.5-bin-cairo\bin\WebKitBrowser.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\packages\WebKit.NET-0.5-bin-cairo\lib\WebKitBrowser.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modules\ViewPage.cs" />
     <Compile Include="WebtopApplication.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="WebtopApplication.Designer.cs">
       <DependentUpon>WebtopApplication.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modules\HelloWebKitWorld.cs" />
+    <Compile Include="Modules\HomePage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="WebtopApplication.resx">
